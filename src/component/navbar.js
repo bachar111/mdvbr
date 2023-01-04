@@ -1,11 +1,11 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import './App.css';
-
-function App() {
+function CollapsibleExample() {
   return (
-    <div className="App">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -34,11 +34,7 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div> );}
+  );
+}
 
-      
-
-
-
-
-export default App;
+export default CollapsibleExample;
