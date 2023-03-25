@@ -1,0 +1,55 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('C:\Users\MONTASSAR\OneDrive\Bureau\react\modd\src\source\hj.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .signin-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .signin-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #cccccc2b;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .signin-form button {
+    background-color: #dc8f00;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .signin-form button:hover {
+    background-color: #ff6600;
+  }

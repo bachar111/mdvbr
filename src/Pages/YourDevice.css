@@ -1,0 +1,99 @@
+.file-input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #4dd12c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-input-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  label[for="fileInput"] {
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: #4dd12c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .drag-and-drop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    border: 2px dashed #4dd12c;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .drag-and-drop-label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .description-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 100px;
+  }
+  
+  .description-input-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4dd12c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3aa623;
+  }
+  
+  .submit-button:active {
+    background-color: #329d1f;
+  }
+  
+.description-input {
+    width: 100%;
+    height: 100px;
+    padding: 100px;
+    border: 2px solid #ccc;
+    border-radius: 050px;
+    font-size: 160px;
+   
+  }
+  
